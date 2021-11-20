@@ -1,0 +1,78 @@
+.hide {
+    display: none;
+}
+div#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#graph2D {
+    margin-top: 15px;
+}
+canvas {
+    position: relative;
+    left: 30%;
+}
+#funcsInputs {
+    position: relative;
+    left: 30%;
+}
+#addFunction {
+    position: relative;
+    left: 30%;
+}
+button.showComponent {
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+button.showComponent:hover {
+    background-color: #272727;
+    color: white;
+}
+button#addFunction {
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+button#addFunction:hover {
+    background-color: #272727;
+    color: white;
+}
+input {
+    margin-right: 5px;
+    width: 200px;
+    margin-bottom: 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color:white;
+    opacity: 50%;
+}
+#delete {
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    width: 74px;
+}
+#delete:hover {
+    background-color: #272727;
+    color: white;
+}
+body {
+    background-color: #646464;
+}
